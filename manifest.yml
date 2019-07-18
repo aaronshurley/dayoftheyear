@@ -1,0 +1,10 @@
+---
+applications:
+- name: dayoftheyear
+  memory: 32M
+  disk_quota: 32M
+  buildpacks:
+  - go_buildpack
+  env:
+    GOVERSION: go1
+    GOPACKAGENAME: github.com/aaronshurley/dayoftheyear
